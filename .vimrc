@@ -1,3 +1,6 @@
+" Pathogen plugin system
+execute pathogen#infect()
+
 filetype plugin indent on
 " Syntax highlighting and filetype recognition
 syntax on
@@ -36,6 +39,8 @@ set term=xterm
 set t_Co=256
 colorscheme OceanicNext
 set colorcolumn=80
+" Removing the current mode text because my plugin shows it better
+set noshowmode
 
 " =============== Custom keybindings to do stuff ===============
 " Mapping j + k in insert mode to <ESC>
@@ -51,10 +56,14 @@ nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>                                                       
 nnoremap <C-K> <C-W><C-K>
 
-" =============== Custom template file insertion ===============
 " HTML tag insertion in normal mode
 nnoremap ,div i<div></div><LEFT><LEFT><LEFT><LEFT><LEFT><LEFT>
 nnoremap ,span i<span></span><LEFT><LEFT><LEFT><LEFT><LEFT><LEFT><LEFT>
+
+" Making ctrl+p start the CtrlP plugin
+let g:ctrlp_map = '<c-p>'
+
+" =============== Custom template file insertion ===============
 " Inserting template HTML file with this binding
 nnoremap ,html :.-1read ~/.vim/templates/html/html.txt<CR>
 " Inserting a generic function template
@@ -62,6 +71,7 @@ nnoremap ,func :.-1read ~/.vim/templates/functions/template.txt<CR>
 " Simple loop templates
 nnoremap ,for :.-1read ~/.vim/templates/loops/for_loop.txt<CR>
 nnoremap ,while :.-1read ~/.vim/templates/loops/while_loop.txt<CR>
-" Common lines of code
+" Common lines of code 
+" Simple std::cout << X << std::endl;
 nnoremap ,std :.-1read ~/.vim/templates/cpp/std.txt<CR>
 

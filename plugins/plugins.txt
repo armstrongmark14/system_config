@@ -1,0 +1,10 @@
+Install pathogen first as package manager:
+https://github.com/tpope/vim-pathogen
+
+Then git clone plugins into bundle folder:
+https://github.com/scrooloose/nerdtree
+https://github.com/scrooloose/syntastic
+https://github.com/tpope/vim-surround
+https://github.com/kien/ctrlp.vim
+https://github.com/bling/vim-airline
+
