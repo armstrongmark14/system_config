@@ -11,9 +11,9 @@ cd ~/code
 git clone https://github.com/armstrongmark14/system_config.git
 
 # Moving config files
-mv .bashrc ~/.bashrc
-mv .vimrc ~/.vimrc
+mv ~/code/system_config/.bashrc ~/.bashrc
+mv ~/code/system_config/.vimrc ~/.vimrc
 
 # Installing vim plugins
-sh plugins/plugins.sh
+sh ~/code/system_config/plugins/plugins.sh
 
