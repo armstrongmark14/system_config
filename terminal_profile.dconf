@@ -1,0 +1,15 @@
+[/]
+list=['b1dcc9dd-5262-4d8d-a863-c897e6d979b9', '2e5ea3a3-3c42-4651-8a61-d4aa28a10568']
+default='2e5ea3a3-3c42-4651-8a61-d4aa28a10568'
+
+[:2e5ea3a3-3c42-4651-8a61-d4aa28a10568]
+foreground-color='rgb(192,197,206)'
+visible-name='oceanic_next'
+palette=['rgb(27,43,52)', 'rgb(236,95,103)', 'rgb(153,199,148)', 'rgb(250,200,99)', 'rgb(102,153,204)', 'rgb(197,148,197)', 'rgb(95,179,179)', 'rgb(192,197,206)', 'rgb(79,91,102)', 'rgb(236,95,103)', 'rgb(153,199,148)', 'rgb(250,200,99)', 'rgb(102,153,204)', 'rgb(197,148,197)', 'rgb(171,121,103)', 'rgb(197,148,197)']
+cursor-background-color='rgb(249,145,87)'
+use-system-font=false
+cursor-colors-set=true
+use-theme-colors=false
+font='Source Code Pro 12'
+background-color='rgb(27,43,52)'
+audible-bell=false
