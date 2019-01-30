@@ -1,3 +1,7 @@
+#!/bin/bash
+
+# Installing vim plugins and setting them up
+
 mkdir -p ~/.vim/autoload ~/.vim/bundle && \
 curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim && \
 cd ~/.vim/bundle &&\
