@@ -2,15 +2,12 @@
 
 # Script for configuring a fresh system
 
-# Creating folders
-mkdir ~/backups ~/bin ~/books ~/code ~/financial ~/jobs ~/school
+# Creating folders, ~/code should be made before this part
+mkdir ~/backups ~/bin ~/books ~/financial ~/jobs ~/school
 mkdir ~/.icons ~/.ssh ~/.themes
 
 # Cloning my setup repo
-cd ~/code
-git clone https://github.com/armstrongmark14/system_config.git
-
-cd system_config
+cd ~/code/system_config
 
 # Moving config files
 cp .bashrc ~/.bashrc
